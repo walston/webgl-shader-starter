@@ -6,7 +6,7 @@ Upon starting you will see a 3D rotating (on 2 axes) cube.
 
 <img src="./cube-screenshot.png" alt="3D rotating cube screenshot" />
 
-Code is based on the following YouTube tutortials:
+Code is based on the following YouTube tutortials by Indigo Code:
 
 - Part 1 (static triangle): https://www.youtube.com/watch?v=kB0ZVUrI4Aw
 - Part 2 (rotating cube): https://www.youtube.com/watch?v=3yLL9ADo-ko
