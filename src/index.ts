@@ -51,8 +51,8 @@ function main() {
 
   // Create vec3 position buffer (counter-clockwise).
   // prettier-ignore
-  const boxVertices = 
-	[ // X, Y, Z           R, G, B
+  const boxVertices = [
+    // X, Y, Z           R, G, B
     // Top
     -1.0, 1.0, -1.0,   0.5, 0.5, 0.5,
     -1.0, 1.0, 1.0,    0.5, 0.5, 0.5,
@@ -93,8 +93,7 @@ function main() {
   // Which sets of vertices form a triangle (as we are sharing vertices for multiple
   // triangles for efficiency).
   // prettier-ignore
-  const boxIndices =
-	[
+  const boxIndices = [
     // Top
     0, 1, 2,
     0, 2, 3,
