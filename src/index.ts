@@ -85,7 +85,7 @@ function main() {
     -1.0, -1.0, 1.0,   0.5, 0.5, 1.0,
     1.0, -1.0, 1.0,    0.5, 0.5, 1.0,
     1.0, -1.0, -1.0,   0.5, 0.5, 1.0,
-	];
+  ];
 
   // Which sets of vertices form a triangle (as we are sharing vertices for multiple
   // triangles for efficiency).
@@ -114,7 +114,7 @@ function main() {
     // Bottom
     21, 20, 22,
     22, 20, 23
-	];
+  ];
 
   // Create a vertex buffer to hold the triangle coords.
   const boxVertexBufferObject = gl.createBuffer()
