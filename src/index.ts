@@ -12,9 +12,6 @@ function main() {
     throw new Error('The execution environment does not support WebGL.')
   }
 
-  gl.clearColor(0.75, 0.85, 0.8, 1.0)
-  gl.clear(gl.COLOR_BUFFER_BIT | gl.COLOR_BUFFER_BIT)
-
   // Compile shaders.
   const vertexShader = createShader(gl, vertexShaderProgram, gl.VERTEX_SHADER)
   const fragmentShader = createShader(gl, fragmentShaderProgram, gl.FRAGMENT_SHADER)
@@ -187,7 +184,7 @@ function main() {
 
     // Clear screen.
     gl.clearColor(0.75, 0.85, 0.8, 1.0)
-    gl.clear(gl.COLOR_BUFFER_BIT | gl.COLOR_BUFFER_BIT)
+    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT)
 
     // Enable backface culling.
     gl.enable(gl.DEPTH_TEST)
