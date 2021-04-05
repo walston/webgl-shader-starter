@@ -1,6 +1,10 @@
-# New Project
+# WebGL Shader Starter
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+A modern (Snowpack + Typescript) base for starting a raw 3D WebGL project using GLSL shaders.
+
+Upon starting you will see a 3D rotating (on 2 axes) cube.
+
+<img src="./cube-screenshot.png" alt="3D rotating cube screenshot" />
 
 ## Available Scripts
 
