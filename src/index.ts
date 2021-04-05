@@ -135,7 +135,7 @@ function main() {
     3, // Number of elements per attribute (vec3).
     gl.FLOAT, // Type of elements.
     false,
-    6 * Float32Array.BYTES_PER_ELEMENT,
+    6 * Float32Array.BYTES_PER_ELEMENT, // Size of a vertice (vec3 + rgb).
     0 // Offset in single vertex to the value.
   )
   gl.enableVertexAttribArray(positionAttribLocation)
@@ -145,7 +145,7 @@ function main() {
     3, // Number of elements per attribute (vec3).
     gl.FLOAT, // Type of elements.
     false,
-    6 * Float32Array.BYTES_PER_ELEMENT,
+    6 * Float32Array.BYTES_PER_ELEMENT, // Size of a vertice (vec3 + rgb).
     3 * Float32Array.BYTES_PER_ELEMENT // Offset in single vertex to the value.
   )
   gl.enableVertexAttribArray(colorAttribLocation)
