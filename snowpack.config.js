@@ -12,6 +12,12 @@ module.exports = {
         ...(process.versions.pnp ? { tsc: 'yarn pnpify tsc' } : {}),
       },
     ],
+    [
+      'snowpack-plugin-raw-file-loader',
+      {
+        exts: ['.glsl'],
+      },
+    ],
   ],
   routes: [
     /* Enable an SPA Fallback in development: */
@@ -30,4 +36,4 @@ module.exports = {
   buildOptions: {
     /* ... */
   },
-};
+}
