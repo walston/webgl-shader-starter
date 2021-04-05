@@ -116,7 +116,7 @@ function main() {
     22, 20, 23
   ];
 
-  // Create a vertex buffer to hold the triangle coords.
+  // Create a vertex buffer to hold the cube coords.
   const boxVertexBufferObject = gl.createBuffer()
   gl.bindBuffer(gl.ARRAY_BUFFER, boxVertexBufferObject)
   gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(boxVertices), gl.STATIC_DRAW)
