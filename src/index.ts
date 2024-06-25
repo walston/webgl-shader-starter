@@ -1,8 +1,8 @@
 import { glMatrix, mat4 } from 'gl-matrix'
 
 import { createShader } from './utils'
-import vertexShaderProgram from './vertexShader.glsl'
-import fragmentShaderProgram from './fragmentShader.glsl'
+import vertexShaderProgram from './shader.vertex.glsl'
+import fragmentShaderProgram from './shader.fragment.glsl'
 
 function main() {
   const canvas = document.getElementById('canvas') as HTMLCanvasElement
